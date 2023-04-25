@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T12:22:10.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="fj-5vh1cit9SHzxaByAb" version="21.0.8" type="github"><diagram name="페이지-1" id="VeKS7mpgIEIArPHhg4XP">dZFNE4IgEIZ/DXeF7ONsVpdOHjozsgkz6DpIo/Xr0wEyxjqxPPu+LLtLWN6MZ8M7eUUBmtBEjIQdCaVpkiXTMZOnI9nm4EBtlPCiBZTqBcHp6UMJ6COhRdRWdTGssG2hshHjxuAQy+6o46odr2EFyorrNb0pYaWje7pb+AVULUPldOv7a3gQ+056yQUOX4gVhOUG0bqoGXPQ8/DCXJzv9Cf7+ZiB1v4wTMHy9nSJNsSKNw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-25T12:31:19.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="IKyOFMRiiWqQx4OJ5y0d" version="21.0.8" type="github">
+  <diagram name="페이지-1" id="VeKS7mpgIEIArPHhg4XP">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XKceZaE7vtenikr2Tc22-1" value="Window" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-2" value="Any Os Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-3" value="Putty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-4" value="FileZila" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-5" value="다른 서버로 파일 전송을 위한 프로그램&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="276" y="350" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-6" value="다른 서버로 접속하기 위한 에물레이터&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="276" y="190" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="XKceZaE7vtenikr2Tc22-1" target="XKceZaE7vtenikr2Tc22-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="330" as="sourcePoint" />
+            <mxPoint x="240" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XKceZaE7vtenikr2Tc22-1" target="XKceZaE7vtenikr2Tc22-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="220" as="sourcePoint" />
+            <mxPoint x="280" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XKceZaE7vtenikr2Tc22-3" target="XKceZaE7vtenikr2Tc22-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="160" as="sourcePoint" />
+            <mxPoint x="510" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="XKceZaE7vtenikr2Tc22-4" target="XKceZaE7vtenikr2Tc22-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="330" as="sourcePoint" />
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XKceZaE7vtenikr2Tc22-12" value=".war 파일로 서버 실행" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="581" y="261" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
