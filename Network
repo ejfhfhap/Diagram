@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T12:41:32.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.1" etag="9YgWGKSIEC5sWTm-ITJl" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T12:57:26.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="VyBSs2UOW6jN6Shp4BC0" version="21.2.1" type="github">
   <diagram name="페이지-1" id="GnLCKWPpzxRbKzEmmM7w">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-2" value="공유기" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=27.5;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dz5PPuKdiqEm1TJBtBdk-2" target="dz5PPuKdiqEm1TJBtBdk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="340" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-4" value="192.168.0.1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Computer1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dz5PPuKdiqEm1TJBtBdk-2" target="dz5PPuKdiqEm1TJBtBdk-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="350" as="sourcePoint" />
+            <mxPoint x="350" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-8" value="192.168.0.2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Computer2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-9" value="192.168.0.3&lt;br&gt;Computer3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="dz5PPuKdiqEm1TJBtBdk-2" target="dz5PPuKdiqEm1TJBtBdk-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="390" as="sourcePoint" />
+            <mxPoint x="240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="380" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.394;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dz5PPuKdiqEm1TJBtBdk-4" target="dz5PPuKdiqEm1TJBtBdk-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="210" as="sourcePoint" />
+            <mxPoint x="540" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-13" value="Window" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="564" y="12" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-15" value="Ubuntu (apt-get install sshServer) 192.168.0.10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="584" y="44" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="104" width="280" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-18" value="Docker (pull mariadb)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="78" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="277" width="280" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-20" value="SSH Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="601" y="250" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="130" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-23" value="Ubuntu 192.168.0.10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="632" y="107" width="118" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="155.5" width="90" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="dz5PPuKdiqEm1TJBtBdk-25" value="MariaDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="657" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
