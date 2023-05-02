@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T00:54:19.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="CaZoPP1-e6KRceE_94in" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-02T00:38:02.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nk-SqgFggNIdO1NOn7HA" version="21.2.3" type="github">
   <diagram name="페이지-1" id="mfFOSdsRfp9rqxDiNm_j">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="29eYO1VU-ebe_u3iWpiD-12" value="session DB를 만들어서 session만 저장" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="29eYO1VU-ebe_u3iWpiD-13" value="Session DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="29eYO1VU-ebe_u3iWpiD-13" value="캐시 서버" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="600" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="29eYO1VU-ebe_u3iWpiD-14" value="세션을 램에 저장해서 사용해서 어떤 컴퓨터는 RAM이 783GB임&lt;br&gt;&lt;br&gt;일반DB는 HDD에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -25,46 +25,43 @@
         <mxCell id="RqXxTDmCNzLn10Qi9Oya-11" value="session DB를 만들어서 session만 저장" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RqXxTDmCNzLn10Qi9Oya-12" value="Session DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="600" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="RqXxTDmCNzLn10Qi9Oya-13" value="세션을 램에 저장해서 사용해서 어떤 컴퓨터는 RAM이 783GB임&lt;br&gt;&lt;br&gt;일반DB는 HDD에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="640" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RqXxTDmCNzLn10Qi9Oya-14" value="사용자에게 사용자 정보가 저장된 TOKEN을 발급해서 쿠키에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="630" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Tc20jyFW5se1tNz4omQ3-1" value="서버1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Tc20jyFW5se1tNz4omQ3-1" value="서버1" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="250" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Tc20jyFW5se1tNz4omQ3-2" value="서버2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Tc20jyFW5se1tNz4omQ3-2" value="서버2" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="390" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Tc20jyFW5se1tNz4omQ3-3" value="서버3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Tc20jyFW5se1tNz4omQ3-3" value="서버3" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="540" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Tc20jyFW5se1tNz4omQ3-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Tc20jyFW5se1tNz4omQ3-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="380" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tc20jyFW5se1tNz4omQ3-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Tc20jyFW5se1tNz4omQ3-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="370" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tc20jyFW5se1tNz4omQ3-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Tc20jyFW5se1tNz4omQ3-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="350" as="sourcePoint" />
             <mxPoint x="210" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tc20jyFW5se1tNz4omQ3-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Tc20jyFW5se1tNz4omQ3-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="370" as="sourcePoint" />
             <mxPoint x="385" y="335" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tc20jyFW5se1tNz4omQ3-8" value="Load 밸런싱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Tc20jyFW5se1tNz4omQ3-8" value="Load 밸런싱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="379" y="190" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Tc20jyFW5se1tNz4omQ3-9" value="파일 저장 전용 컴퓨터" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Tc20jyFW5se1tNz4omQ3-9" value="파일 저장 전용 컴퓨터" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="310" y="100" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
